@@ -48,7 +48,7 @@ const Navbar = () => {
               />
 
               <span className="hidden md:block text-white text-2xl font-bold ml-2">
-                PropertyPulse
+                Nitrox
               </span>
             </a>
             {/* <!-- Desktop Menu Hidden below md screens --> */}
