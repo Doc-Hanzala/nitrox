@@ -1,10 +1,11 @@
-import Link from "next/link";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-2xl">hanzala is a good boy</h1>
-      <Link href="/properties">to properties</Link>
-    </div>
+    <>
+      <Hero />
+      <InfoBoxes/>
+    </>
   );
 }

@@ -12,7 +12,7 @@ import profileImg from "@/assets/images/profile.png";
 const Navbar = () => {
   const [isMobileMood, setIsMobileMood] = useState(false);
   const [isProfileDropMenu, setIsProfileDropMenu] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
+  const [isLoggedIn, setIsLoggedIn] = useState(true);
 
   const pathname = usePathname();
 
